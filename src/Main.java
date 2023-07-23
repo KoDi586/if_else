@@ -74,7 +74,6 @@ public class Main {
 
         byte personsAge = 39;
 
-
         if (personsAge < 2) System.out.println("Если возраст человека равен " + personsAge + ", то ему пора спать.");
 
         if (personsAge > 2 && personsAge <= 6) System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в детский сад.");
