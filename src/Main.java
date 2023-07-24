@@ -66,38 +66,57 @@ public class Main {
         } else {
             System.out.println("Если скорость " + speed1 + ", то придется заплатить штраф.");
         }
-
     }
+
+
 
     public static void task4() {
         System.out.println("\nЗадание 4\n");
 
         byte personsAge = 39;
 
-        if (personsAge < 2) System.out.println("Если возраст человека равен " + personsAge + ", то ему пора спать.");
+        if (personsAge < 2) {
+            System.out.println("Если возраст человека равен " + personsAge + ", то ему пора спать.");
+        }
 
-        if (personsAge > 2 && personsAge <= 6) System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в детский сад.");
+        if (personsAge >= 2 && personsAge <= 6) {
+            System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в детский сад.");
+        }
 
-        if (personsAge > 6 && personsAge <= 18) System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в школу.");
+        if (personsAge > 6 && personsAge <= 18) {
+            System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в школу.");
+        }
 
-        if (personsAge > 18 && personsAge <= 24) System.out.println("Если возраст человека равен " + personsAge + ", то его место в университете.");
+        if (personsAge > 18 && personsAge <= 24) {
+            System.out.println("Если возраст человека равен " + personsAge + ", то его место в университете.");
+        }
 
-        if (personsAge > 24 && personsAge <= 60) System.out.println("Если возраст человека равен " + personsAge + ", то ему пора ходить на работу.");
-
-        else System.out.println("Если возраст человека равен " + personsAge + ", то он может отдохнуть.");
+        if (personsAge > 24 && personsAge <= 60) {
+            System.out.println("Если возраст человека равен " + personsAge + ", то ему пора ходить на работу.");
+        } else {
+            System.out.println("Если возраст человека равен " + personsAge + ", то он может отдохнуть.");
+        }
     }
+
+
 
     public static void task5() {
         System.out.println("\nЗадание 5\n");
 
         byte childAge = 15;
 
-        if (childAge < 5) System.out.println("Если возраст ребенка равен " + childAge + ", то он не может кататься на аттракционе.");
+        if (childAge < 5) {
+            System.out.println("Если возраст ребенка равен " + childAge + ", то он не может кататься на аттракционе.");
 
-        else if (childAge <= 14) System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
+        } else if (childAge <= 14) {
+            System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
 
-        else if (childAge > 14) System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься без сопровождения взрослого.");
+        } else if (childAge > 14) {
+            System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься без сопровождения взрослого.");
+        }
     }
+
+
 
     public static void task6() {
         System.out.println("\nЗадание 6\n");
@@ -106,14 +125,18 @@ public class Main {
         byte seat = 60;
         byte countPersons = 103;
 
-        if (countPersons < seat) System.out.println("Если количество человек в вагоне равно " + countPersons + ", то есть сидячее место.");
+        if (countPersons < seat) {
+            System.out.println("Если количество человек в вагоне равно " + countPersons + ", то есть сидячее место.");
 
-        else if (countPersons < maxVolume) System.out.println("Если количество человек в вагоне равно " + countPersons + ", то есть стоячее место.");
+        } else if (countPersons < maxVolume) {
+            System.out.println("Если количество человек в вагоне равно " + countPersons + ", то есть стоячее место.");
 
-        else System.out.println("Если количество человек в вагоне равно " + countPersons + ", то вагон полность забит и мест нет.");
-
-
+        } else {
+            System.out.println("Если количество человек в вагоне равно " + countPersons + ", то вагон полность забит и мест нет.");
+        }
     }
+
+
 
     public static void task7() {
         System.out.println("\nЗадание 7\n");
@@ -122,16 +145,14 @@ public class Main {
         int two = 5;
         int three = 3;
 
-        if (one > two && one > three) System.out.println("Наибольшее число из трех данных равно " + one);
+        if (one > two && one > three) {
+            System.out.println("Наибольшее число из трех данных равно " + one);
 
-        else if (two > one && two > three) System.out.println("Наибольшее число из трех данных равно " + two);
+        } else if (two > one && two > three) {
+            System.out.println("Наибольшее число из трех данных равно " + two);
 
-        else System.out.println("Наибольшее число из трех данных равно " + three);
-
+        } else {
+            System.out.println("Наибольшее число из трех данных равно " + three);
+        }
     }
-
-
-
-
-
 }
